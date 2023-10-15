@@ -18,9 +18,11 @@ class MainActivity : AppCompatActivity() {
         //() -> ID da informação (R.id.tvResult, etc)
         //val -> variáveis que não mudam de valor
         //var -> variáveis que podem mudar de valor
+
         val btSend = findViewById<Button>(R.id.btSend)
         val tvResult = findViewById<TextView>(R.id.tvResult)
         val etName = findViewById<TextView>(R.id.etName)
+
         //Declarar um Listener
         btSend.setOnClickListener {
             //tvResult.text = "Raí Silva" -> dessa forma coloco o texto direto.
