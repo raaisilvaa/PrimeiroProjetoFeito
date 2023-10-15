@@ -5,7 +5,8 @@ plugins {
 
 android {
     namespace = "com.projetoraaisilvaa.primeiroprojetofeito"
-    compileSdk = 33
+    compileSdk = 34
+
 
     defaultConfig {
         applicationId = "com.projetoraaisilvaa.primeiroprojetofeito"

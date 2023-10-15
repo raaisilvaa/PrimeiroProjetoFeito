@@ -25,8 +25,7 @@ class MainActivity : AppCompatActivity() {
             //Tudo que eu escrever dentro das chaves, será executado quando clicar no botão
             tvResult.text = "Raí Silva"
 
+
         }
-
-
     }
 }
