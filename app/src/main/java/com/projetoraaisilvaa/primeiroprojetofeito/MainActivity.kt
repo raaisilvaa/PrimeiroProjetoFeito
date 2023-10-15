@@ -20,11 +20,12 @@ class MainActivity : AppCompatActivity() {
         //var -> variáveis que podem mudar de valor
         val btSend = findViewById<Button>(R.id.btSend)
         val tvResult = findViewById<TextView>(R.id.tvResult)
+        val etName = findViewById<TextView>(R.id.etName)
         //Declarar um Listener
         btSend.setOnClickListener {
-            //Tudo que eu escrever dentro das chaves, será executado quando clicar no botão
-            tvResult.text = "Raí Silva"
-
+            //tvResult.text = "Raí Silva" -> dessa forma coloco o texto direto.
+            //nessa caso toString() serviu para parar de sublinhar o texto, transformando-o em String. d
+            tvResult.text = etName.text.toString() // o que digitar no etName é o que irá aparecer no tvResult.
 
         }
     }
